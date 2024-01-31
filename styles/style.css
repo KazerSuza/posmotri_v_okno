@@ -19,6 +19,8 @@ html {
 }
 
 .page {
+  display: grid;
+  place-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -52,9 +54,6 @@ ol {
   grid-template-columns: 711px 399px;
   inline-size: 1140px;
   block-size: 534px;
-  margin-block-start: 133px;
-  margin-inline-start: 30px;
-  margin-inline-end: 30px;
   gap: 30px;
   justify-content: center;
   align-items: end;
